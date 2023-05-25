@@ -688,19 +688,17 @@ img {
 }
 
 
-.subscribe-container {
-  display: flex;
-}
 
-.subscribe-container-field {
+.subscribe-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  margin-bottom: 16px;
 }
 
-.subscribe-container-input {
+.subscribe-input {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -715,7 +713,7 @@ img {
   background-color: transparent;
 }
 
-.subscribe-container-btn {
+.subscribe-btn {
   cursor: pointer;
   font-family: var(--main-font);
   padding: 8px 64px 8px 24px;
