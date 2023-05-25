@@ -785,6 +785,17 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-desc {
+  font-family: var(--main-font) font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+  margin-bottom: 4px;
+  display: block;
+}
+
 .modal-checkbox {
   margin-bottom: 16px;
 }
