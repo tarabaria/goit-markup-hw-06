@@ -701,22 +701,23 @@ img {
 .subscribe-input {
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  padding: 8px 212px 8px 16px;
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
 }
 
 .subscribe-btn {
   cursor: pointer;
   font-family: var(--main-font);
-  padding: 8px 64px 8px 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -731,4 +732,5 @@ img {
 
 .subscribe-field {
   display: flex;
+  margin-right: 24px;
 }
