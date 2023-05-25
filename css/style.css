@@ -769,6 +769,30 @@ img {
 }
 
 .modal-field,
-.modal-field-field {
+.modal-checkbox {
   display: block;
+}
+
+.modal-input {
+  width: 100%;
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 38px;
+}
+
+.modal-field {
+  margin-bottom: 8px;
+}
+
+.modal-checkbox {
+  margin-bottom: 16px;
+}
+
+.modal-message {
+  width: 100%;
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+  min-height: 120px;
 }
