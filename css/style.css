@@ -698,10 +698,6 @@ img {
   margin-bottom: 16px;
 }
 
-.subscribe-form {
-  display: flex;
-}
-
 .subscribe-input {
   font-weight: 400;
   font-size: 12px;
@@ -731,6 +727,8 @@ img {
   color: var(--white-color);
   background-color: var(--main-blue-color);
   border-radius: 4px;
+}
 
-
+.subscribe-field {
+  display: flex;
 }
