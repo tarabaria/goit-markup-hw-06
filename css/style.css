@@ -807,10 +807,3 @@ img {
   padding: 8px 16px;
   min-height: 120px;
 }
-
-.modal-input-icon {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
