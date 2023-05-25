@@ -734,6 +734,11 @@ img {
   border: none;
 }
 
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: var(--accent-color);
+}
+
 .subscribe-field {
   display: flex;
   margin-right: 24px;
