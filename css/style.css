@@ -160,6 +160,10 @@ img {
   font-style: normal;
 }
 
+.social-network {
+  margin-right: 80px;
+}
+
 .social-network-title {
   font-weight: 500;
   font-size: 16px;
@@ -681,4 +685,50 @@ img {
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.subscribe-container {
+  display: flex;
+}
+
+.subscribe-container-field {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+
+.subscribe-container-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  padding: 8px 212px 8px 16px;
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.subscribe-container-btn {
+  cursor: pointer;
+  font-family: var(--main-font);
+  padding: 8px 64px 8px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--main-blue-color);
+  border-radius: 4px;
+
+
 }
