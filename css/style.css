@@ -719,7 +719,6 @@ img {
   cursor: pointer;
   width: 165px;
   height: 40px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -736,4 +735,8 @@ img {
 .subscribe-field {
   display: flex;
   margin-right: 24px;
+}
+
+.subscribe-form {
+  display: flex;
 }
