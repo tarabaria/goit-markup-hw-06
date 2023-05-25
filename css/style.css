@@ -767,3 +767,8 @@ img {
   color: var(--second-color);
   margin-bottom: 16px;
 }
+
+.modal-field,
+.modal-field-field {
+  display: block;
+}
