@@ -717,8 +717,6 @@ img {
 
 .subscribe-btn {
   cursor: pointer;
-  width: 165px;
-  height: 40px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -730,6 +728,10 @@ img {
   color: var(--white-color);
   background-color: var(--main-blue-color);
   border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
+  justify-content: center;
+  border: none;
 }
 
 .subscribe-field {
@@ -739,4 +741,8 @@ img {
 
 .subscribe-form {
   display: flex;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
 }
