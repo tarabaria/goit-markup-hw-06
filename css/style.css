@@ -874,16 +874,3 @@ img {
   ustify-content: center;
   fill: transparent;
 }
-
-.visually-hidden:checked+.own-checkbox {
-  background-color: var(--main-blue-color);
-  border-color: var(--main-blue-color);
-}
-
-/* .checkbox-icon {
-  opacity: 0;
-}
-
-.visually-hidden:checked+.own-checkbox+.checkbox-icon {
-  opacity: 1;
-} */
