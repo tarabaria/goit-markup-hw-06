@@ -807,3 +807,7 @@ img {
   padding: 8px 16px;
   min-height: 120px;
 }
+
+.modal-icon-container {
+  position: relative;
+}
