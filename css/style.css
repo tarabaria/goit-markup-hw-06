@@ -914,9 +914,4 @@ img {
 .visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container {
   background-color: #404bbf;
   border: none;
-  fill: var(--white-color);
-}
-
-..visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container>.checkbox-icon {
-  fill: var(--white-color);
 }
