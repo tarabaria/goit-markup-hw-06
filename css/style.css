@@ -810,10 +810,10 @@ img {
 
 .modal-icon-container {
   position: relative;
-  top: 0;
-  left: 0;
+
 }
 
 .modal-icon {
   position: absolute;
+
 }
