@@ -908,9 +908,9 @@ img {
 }
 
 
-/* 
-.visually-hidden:focus+.modal-checkbox-accept+.checkbox-icon-container {
+
+.visually-hidden:focus+.modal-checkbox-accept>.checkbox-icon-container {
   background-color: #404bbf;
   border: none;
   fill: var(--white-color);
-} */
+}
