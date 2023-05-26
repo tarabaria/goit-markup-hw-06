@@ -714,6 +714,7 @@ img {
   width: 264px;
   height: 40px;
   padding-left: 16px;
+  outline: transparent;
 }
 
 .subscribe-btn {
@@ -744,6 +745,7 @@ img {
 .subscribe-field {
   display: flex;
   margin-right: 24px;
+
 }
 
 .subscribe-form {
