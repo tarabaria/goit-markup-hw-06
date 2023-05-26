@@ -866,6 +866,7 @@ img {
 .modal-input-checkbox:checked+.own-checkbox {
   background-color: var(--main-blue-color);
   border-color: var(--main-blue-color);
+  opacity: 1;
 }
 
 .own-checkbox {
@@ -875,6 +876,10 @@ img {
 
 }
 
-.checkbox-icon {
+/* .checkbox-icon {
   opacity: 0;
 }
+
+.modal-input-checkbox:checked+.own-checkbox+.checkbox-icon {
+  opacity: 1;
+} */
