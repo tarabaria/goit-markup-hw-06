@@ -858,3 +858,7 @@ img {
   letter-spacing: 0.04em;
   color: #8E8F99;
 }
+
+.modal-input-checkbox {
+  margin-right: 8px;
+}
