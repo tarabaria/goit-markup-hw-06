@@ -909,8 +909,13 @@ img {
 
 
 
-.visually-hidden:focus+.modal-checkbox-accept>.checkbox-icon-container {
+.visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container {
   background-color: #404bbf;
   border: none;
   fill: var(--white-color);
+  opacity: 1;
+}
+
+.checkbox-icon {
+  opacity: 0;
 }
