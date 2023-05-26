@@ -774,10 +774,17 @@ img {
 
 .modal-input {
   width: 100%;
-  border: 1px solid var(--second-color);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
   padding-left: 38px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus {
+  border-color: var(--main-blue-color);
 }
 
 .modal-form-container {
@@ -815,5 +822,6 @@ img {
 
 .modal-icon {
   position: absolute;
+  left: 16px;
 
 }
