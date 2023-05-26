@@ -861,6 +861,7 @@ img {
 
 .modal-input-checkbox {
   margin-right: 8px;
+  appearance: none;
 }
 
 .modal-input-checkbox:checked+.own-checkbox {
