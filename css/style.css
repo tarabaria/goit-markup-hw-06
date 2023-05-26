@@ -787,6 +787,10 @@ img {
   border-color: var(--main-blue-color);
 }
 
+.modal-input:focus+.modal-icon {
+  fill: var(--main-blue-color);
+}
+
 .modal-form-container {
   margin-bottom: 8px;
 }
