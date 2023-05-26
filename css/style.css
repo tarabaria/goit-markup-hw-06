@@ -915,9 +915,8 @@ img {
   background-color: #404bbf;
   border: none;
   fill: var(--white-color);
-  opacity: 1;
 }
 
-.checkbox-icon {
-  opacity: 0;
+..visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container>.checkbox-icon {
+  fill: var(--white-color);
 }
