@@ -447,13 +447,14 @@
                         placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-form-container-checkbox">
-                    <input class="modal-input-checkbox" type="checkbox" id="user-privacy" value="true"
-                        name="user-privacy" required>
+                    <input class="visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy"
+                        required>
+                    <label class="modal-checkbox-accept" for="user-privacy">I accept the terms and conditions of the <a
+                            class="privacy-policy-link" href="">Privacy Policy</a></label>
                     <svg class="own-checkbox" width="10" height="8">
                         <use class="checkbox-icon" href="./images/icons.svg#icon-vector"></use>
                     </svg>
-                    <label class="modal-checkbox-accept" for="user-privacy">I accept the terms and conditions of the <a
-                            class="privacy-policy-link" href="">Privacy Policy</a></label>
+
                 </div>
                 <button type="submit">Send</button>
             </form>
