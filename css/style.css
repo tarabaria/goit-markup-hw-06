@@ -912,6 +912,7 @@ img {
 
 
 .visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container {
-  background-color: #404bbf;
+  background-color: var(--main-blue-color);
   border: none;
+  border-color: var(--main-blue-color);
 }
