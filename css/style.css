@@ -861,6 +861,7 @@ img {
 
 .visually-hidden {
   position: absolute;
+  appearance: none;
 }
 
 .checkbox-icon-container {
@@ -873,6 +874,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+
 }
 
 .privacy-policy-link {
