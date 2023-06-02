@@ -58,6 +58,9 @@ img {
 .container {}
 
 
+.icon {
+  fill: #2e2f42;
+}
 
 /* .page-header>.container {
   display: flex;
