@@ -55,12 +55,14 @@ img {
 
 /* =======HEADER======= */
 
-.container {}
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
 
-
-.icon {
-  fill: #2e2f42;
 }
+
+
+
 
 /* .page-header>.container {
   display: flex;
