@@ -468,24 +468,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 }
 
-
-
-
-
-
-
-/* .hero {
-  background-color: var(--second-color);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 188px 0;
-  margin-left: auto;
-  margin-right: auto;
-} */
 /* =======MAIN======= */
+
+
+
 
 
 /* =======HEADER не використані ======= */
@@ -584,7 +570,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 /* =======HEADER не використані ======= */
 
-/* =======MAIN 1 SECTION======= */
+/* =======MAIN 1 SECTION НЕ ВИКОРИСТАНІ ======= */
 /* .hero-tittle {
   font-style: normal;
   font-weight: 700;
