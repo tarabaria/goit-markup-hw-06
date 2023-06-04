@@ -1117,6 +1117,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 /* =======FOOTER======= */
 
 /* =======MODAL======= */
+
 .modal-title {
   font-family: var(--main-font);
   font-weight: 500;
