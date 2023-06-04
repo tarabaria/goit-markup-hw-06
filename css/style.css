@@ -45,7 +45,6 @@ img {
 
 
 .container {
-  width: 100%;
   padding: 0 16px;
   margin-right: auto;
   margin-left: auto;
@@ -826,10 +825,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   padding: 96px 0;
 }
 
-.customers-list {
-  display: flex;
-}
-
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -841,6 +836,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .customers-list {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -886,9 +882,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 }
 
+
 @media screen and (min-width:768px) {
   .customers-list {
     gap: 24px;
+    margin: 0 108px;
   }
 
   .customers-item {
@@ -897,12 +895,26 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 @media screen and (min-width:1158px) {
+  .logo-footer-container {
+    margin-right: 120px;
+  }
+
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
+
+  .customers-list {
+    margin: 0;
+  }
 }
 
+
+
 /* =======MAIN CUSTOMERS======= */
+
+
+/* =======FOOTER======= */
+
 .page-footer {
   padding: 96px 0;
   background-color: var(--second-color);
@@ -923,13 +935,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
-  max-width: 268px;
+  max-width: 264px;
 }
 
-
-
 .social-network-title {
-  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -979,8 +988,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .subscribe-input {
-  width: 100%;
-  margin-bottom: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -1043,22 +1050,27 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .subscribe-title {
     text-align: center;
   }
+
+  .subscribe-input {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .social-network-title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width:768px) {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    margin-right: auto;
+    margin-bottom: auto;
   }
 
   .social-network-title {
     margin-bottom: 16px;
-  }
-
-
-  .social-network {
-    margin-right: 24px;
   }
 
   .subscribe-form {
@@ -1067,18 +1079,28 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 
   .logo-footer-container {
+    margin-right: 24px;
     margin-bottom: 72px;
+
   }
 
   .subscribe-field {
     width: 264px;
     margin-right: 24px;
   }
+
+  .subscribe-input {
+    width: 264px;
+  }
 }
 
-@media screen and (min-width:1158px) {}
+@media screen and (min-width:1158px) {
+  .social-network {
+    margin-right: 80px;
+  }
+}
 
-/* =======FOOTER======= */
+
 
 
 /* =======FOOTER======= */
