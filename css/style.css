@@ -1067,6 +1067,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     flex-wrap: wrap;
     margin-right: auto;
     margin-bottom: auto;
+    gap: 24px;
   }
 
   .social-network-title {
@@ -1079,9 +1080,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 
   .logo-footer-container {
-    margin-right: 24px;
     margin-bottom: 72px;
-
   }
 
   .subscribe-field {
@@ -1097,6 +1096,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 @media screen and (min-width:1158px) {
   .social-network {
     margin-right: 80px;
+  }
+
+  .footer-container {
+    gap: 0;
   }
 }
 
