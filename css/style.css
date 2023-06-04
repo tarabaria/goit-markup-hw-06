@@ -149,6 +149,7 @@ img {
   .social-network-list-mobile {
     display: flex;
     gap: 54px;
+    margin-bottom: 40px;
   }
 
   .social-network-list-item-mobile {
