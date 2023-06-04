@@ -43,15 +43,12 @@ img {
   display: block;
 }
 
-@media screen and (min-width: 428px) {
-  .container {
-    width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
+.container {
+  width: 100%;
+  padding: 0 16px;
 }
+
 
 @media screen and (min-width: 768px) {
   .container {
@@ -541,6 +538,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 @media screen and (min-width:1158px) {
+  .features {
+    padding: 120px 0;
+  }
+
   .icon-container {
     display: flex;
   }
