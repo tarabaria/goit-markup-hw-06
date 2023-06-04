@@ -931,7 +931,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
-  max-width: 264px;
 }
 
 .social-network-title {
@@ -1034,6 +1033,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 
   .footer-text {
+    max-width: 268px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 72px;
@@ -1065,17 +1065,26 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     margin-bottom: auto;
   }
 
+  .footer-text {
+    max-width: 264px;
+  }
+
   .social-network-title {
     margin-bottom: 16px;
   }
 
+  .subscribe-container {
+    margin-left: 108px;
+  }
+
   .subscribe-form {
     display: flex;
-
   }
 
   .logo-footer-container {
     margin-bottom: 72px;
+    margin-right: 24px;
+    margin-left: 108px;
   }
 
 
@@ -1096,6 +1105,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
   .logo-footer-container {
     margin-right: 120px;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .subscribe-container {
+    margin-left: 0;
   }
 
 }
