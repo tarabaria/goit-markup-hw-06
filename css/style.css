@@ -632,7 +632,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 /* =======MAIN TEAM======= */
 @media screen and (max-width:768px) {
   .team {
-    padding: 96px 0;
+    padding: 96px 0 0 0;
     background-color: var(--light-color);
   }
 
