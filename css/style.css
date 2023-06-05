@@ -233,8 +233,6 @@ img {
   .social-network-list-icon-mobile {
     fill: var(--light-color)
   }
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -293,14 +291,6 @@ img {
     display: none;
   }
 
-
-
-
-
-
-
-
-
   .email-tel {
     font-style: normal;
     font-size: 12px;
@@ -314,9 +304,6 @@ img {
   .email-tel:focus {
     color: var(--accent-color);
   }
-
-
-
 }
 
 @media screen and (min-width: 1158px) {
@@ -523,8 +510,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     letter-spacing: 0.02em;
     color: var(--main-color);
   }
-
-
 }
 
 @media screen and (min-width:1158px) {
@@ -792,7 +777,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
   }
 }
-
 
 @media screen and (min-width:768px) {
   .customers-list {
@@ -1246,6 +1230,52 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 /* =======MODAL======= */
+
+/* =======PORTFOLIO MAIN======= */
+.filtr-list {
+  display: flex;
+  padding: 48px 0;
+}
+
+.filtr-btn {
+  color: var(--main-blue-color);
+  background-color: var(--light-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* =======PORTFOLIO MAIN======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =======HEADER не використані ======= */
 
