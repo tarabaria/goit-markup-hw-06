@@ -18,33 +18,101 @@
 
 <body>
     <header class="page-header">
-        <div class="container">
+        <div class="container page-header-container">
             <nav class="navigation-header">
                 <a class="logo link" href="./index.html">Web<span class="logo-second-part-dark">Studio</span></a>
                 <ul class="navigation list">
                     <li>
-                        <a class="navigation-btn link" href="./index.html">Studio</a>
+                        <a class="navigation-btn link navigation-btn-active" href="./index.html">Studio</a>
                     </li>
                     <li>
-                        <a class="navigation-btn link navigation-btn-active" href="./portfolio.html">Portfolio</a>
+                        <a class="navigation-btn link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li><a class="navigation-btn link" href="">Contacts</a></li>
                 </ul>
             </nav>
+            <button class="mobile-menu-open-btn js-open-menu" type="button" aria-expanded="false">
+                <svg class="open-menu" width="32px" height="22">
+                    <use href="./images/icons.svg#icon-menu-open"></use>
+                </svg>
+            </button>
             <address class="contact-information">
                 <ul class="contact list">
-                    <li>
+                    <li class="contact-email">
                         <a class="email-tel link" href="mailto:info@devstudio.com">
                             info@devstudio.com
                         </a>
                     </li>
-                    <li>
+                    <li class="contact-tel">
                         <a class="email-tel link" href="tel:+110001111111">
                             +11 (000) 111-11-11
                         </a>
                     </li>
                 </ul>
             </address>
+
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <button type="button" class="modal-close-btn js-close-menu">
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <ul class="navigation-mobile-list list">
+                <li class="navigation-mobile-list-item">
+                    <a class="navigation-btn-mobile link" href="./index.html">Studio</a>
+                </li>
+                <li class="navigation-mobile-list-item">
+                    <a class="navigation-btn-mobile link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="navigation-mobile-list-item">
+                    <a class="navigation-btn-mobile link" href="">Contacts</a>
+                </li>
+            </ul>
+            <div>
+                <ul class="contact-mobile list">
+                    <li class="tel-item-mobile">
+                        <a class="tel-mobile link" href="tel:+110001111111">
+                            +11 (000) 111-11-11
+                        </a>
+                    </li>
+                    <li class="email-item-mobile">
+                        <a class="email-mobile link" href="mailto:info@devstudio.com">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                </ul>
+                <ul class="social-network-list-mobile list">
+                    <li class="social-network-list-item-mobile">
+                        <a href="" class="social-network-list-link-mobile">
+                            <svg class="social-network-list-icon-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-network-list-item-mobile">
+                        <a href="" class="social-network-list-link-mobile">
+                            <svg class="social-network-list-icon-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-network-list-item-mobile">
+                        <a href="" class="social-network-list-link-mobile">
+                            <svg class="social-network-list-icon-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-network-list-item-mobile">
+                        <a href="" class="social-network-list-link-mobile">
+                            <svg class="social-network-list-icon-mobile" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -201,7 +269,7 @@
     </main>
 
     <footer class="page-footer">
-        <div class="container">
+        <div class="container footer-container">
             <div class="logo-footer-container">
                 <a class="logo logo-footer link" href="./index.html">Web<span
                         class="logo-second-part-light">Studio</span></a>
