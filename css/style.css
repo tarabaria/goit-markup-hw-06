@@ -908,8 +908,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   }
 }
 
-
-
 /* =======MAIN CUSTOMERS======= */
 
 
@@ -1275,8 +1273,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   background-color: var(--accent-color);
 }
 
-
-
 .visually-hidden:checked+.modal-checkbox-accept>.checkbox-icon-container {
   background-color: var(--accent-color);
   fill: var(--white-color);
@@ -1290,7 +1286,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: 584px;
+  max-height: 584px;
   background-color: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1322,6 +1318,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width:768px) {
+  .modal {
+    width: 392px;
+    height: 584px;
+  }
 }
 
 /* =======MODAL======= */
