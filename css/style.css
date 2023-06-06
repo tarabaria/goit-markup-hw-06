@@ -1395,9 +1395,17 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .overlay {
     display: none;
   }
+
+  .filtr-project {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width:1158px) {
+  .filtr-list-container {
+    padding: 100px 0 120px 0;
+  }
+
   .page-header-container {
     padding: 100px 0 120 px 0;
   }
@@ -1437,6 +1445,10 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .project-list-img-wrapper {
     position: relative;
     overflow: hidden;
+  }
+
+  .filtr-project {
+    width: calc((100% - 48px) / 3);
   }
 }
 
