@@ -120,7 +120,7 @@ img {
 
 @media screen and (max-width:768px) {
   .page-header {
-    padding: 24px 0;
+    padding: 24px 0 22px 0;
   }
 
   .navigation,
@@ -249,7 +249,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-
   .page-header {
     padding: 16px 0;
   }
@@ -294,7 +293,6 @@ img {
     border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: 0;
     color: var(--accent-color);
     bottom: -4px;
   }
@@ -304,7 +302,12 @@ img {
     display: none;
   }
 
+  .contact-email {
+    margin-bottom: 12px;
+  }
+
   .email-tel {
+    display: block;
     font-style: normal;
     font-size: 12px;
     line-height: 1.17;
@@ -323,6 +326,10 @@ img {
   .contact {
     display: flex;
     gap: 40px;
+  }
+
+  .contact-email {
+    margin-bottom: 0;
   }
 
   .email-tel {
@@ -384,9 +391,14 @@ img {
   background-color: var(--accent-color);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:428px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile.jpg);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .hero {
     padding: 112px 0;
   }
 
@@ -399,17 +411,22 @@ img {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
-screen and (min-resolution: 192dpi) and (max-width: 768px),
-screen and (min-resolution: 2dppx) and (max-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 428px),
+screen and (min-resolution: 192dpi) and (max-width: 428px),
+screen and (min-resolution: 2dppx) and (max-width: 428px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile@2x.jpg);
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:428px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet.jpg);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .hero {
     padding: 112px 0;
   }
 
@@ -422,18 +439,23 @@ screen and (min-resolution: 2dppx) and (max-width: 768px) {
 
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 428px),
+screen and (min-resolution: 192dpi) and (min-width: 428px),
+screen and (min-resolution: 2dppx) and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet@2x.jpg);
   }
 }
 
-@media screen and (min-width:1158px) {
+@media screen and (min-width:768px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-pc.jpg);
     max-width: 1440px;
+  }
+}
+
+@media screen and (min-width:1158px) {
+  .hero {
     padding: 188px 0;
   }
 
@@ -442,9 +464,9 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
-screen and (min-resolution: 192dpi) and (min-width: 1158px),
-screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-pc@2x.jpg);
   }
@@ -793,8 +815,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 @media screen and (min-width:768px) {
   .customers-list {
+    width: 552px;
     gap: 24px;
-    margin: 0 108px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .customers-item {
@@ -809,6 +833,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
   .customers-list {
     margin: 0;
+    width: 1128px;
   }
 }
 
@@ -965,6 +990,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 @media screen and (min-width:768px) {
   .footer-container {
+    width: 584px;
     display: flex;
     flex-wrap: wrap;
     margin-right: auto;
@@ -979,10 +1005,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     margin-bottom: 16px;
   }
 
-  .subscribe-container {
-    margin-left: 108px;
-  }
-
   .subscribe-form {
     display: flex;
   }
@@ -990,7 +1012,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .logo-footer-container {
     margin-bottom: 72px;
     margin-right: 24px;
-    margin-left: 108px;
   }
 
 
@@ -1005,6 +1026,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 @media screen and (min-width:1158px) {
+  .footer-container {
+    width: 1158px;
+  }
+
   .social-network {
     margin-right: 80px;
   }
