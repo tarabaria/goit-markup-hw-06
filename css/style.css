@@ -1452,6 +1452,12 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   }
 }
 
+@media screen and (max-width:427px) {
+  .project-photo {
+    max-width: 300px;
+  }
+}
+
 /* =======PORTFOLIO MAIN======= */
 
 
