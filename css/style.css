@@ -658,6 +658,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 .team-photo {
   margin-bottom: 32px;
+  background-color: var(--white-color);
 }
 
 .team-name {
@@ -1418,6 +1419,16 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  .project-link {
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .project-link:hover,
+  .project-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
   .project-link:hover .overlay,
   .project-link:focus .overlay {
     transform: translatey(0%);
@@ -1511,127 +1522,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 /* =======HEADER не використані ======= */
 
 /* =======MAIN 1 SECTION НЕ ВИКОРИСТАНІ ======= */
-/* .hero-tittle {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white-color);
-  text-align: center;
-  max-width: 496px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 48px;
-}
-
-.hero {
-  background-color: var(--second-color);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 188px 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white-color);
-  background-color: var(--main-blue-color);
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer;
-  padding: 16px 32px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  display: block;
-  border: none;
-  height: 56px;
-  min-width: 169px;
-  margin-right: auto;
-  margin-left: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--accent-color);
-}
-
-
-
-
+/* 
 .title-work-container {
-  display: flex;
-}
-
-
-
-
-
-
-
-
-
-.team-container {
-  background-color: var(--white-color);
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--second-color);
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--second-color);
-  margin-bottom: 8px;
-}
-
-.team-position {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin-bottom: 8px;
-}
-
-.team-photo {
-  background-color: var(--white-color);
-
-}
-
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
-.team {
-  background-color: var(--light-color);
-  padding: 120px 0;
-}
-
-.features {
-  padding: 120px 0;
   display: flex;
 }
 
@@ -1639,82 +1531,18 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   display: flex;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
-.features-list-text {
-  width: calc((100% - 72px) / 4);
-}
-
 .team-info {
   padding: 32px 0;
 }
 
-.social-network-list-item {
-  width: 40px;
-  height: 40px;
-}
 
-.customers-icon {
-  fill: currentColor;
-} */
+ */
 
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
-/* .filtr-btn {
-  color: var(--main-blue-color);
-  background-color: var(--light-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.filtr-btn:hover,
-.filtr-btn:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  border-color: transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.project-link {
-  display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.project-link:hover,
-.project-link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.project-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--second-color);
-  margin-bottom: 8px;
-}
-
-.project-type {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
+/* 
 .filtr-list {
   padding: 96px 0 120px;
 }
@@ -1722,9 +1550,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 .icon-container>svg {
   width: 64px;
   height: 64px;
-}
-
- */
+} */
 
 /* =======MAIN PORTFOLIO======= */
 
